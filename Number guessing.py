@@ -12,7 +12,7 @@ class ValueTooSmallError(Error):
 class ValueTooLargeError(Error):
     pass
 
-# رکوردها: لیستی از دیکشنری‌ها {'attempts': X, 'range': (min,max)}
+# رکوردها {'attempts': X, 'range': (min,max)}
 records = []
 
 def print_records():
